@@ -30,7 +30,7 @@ FROM dhi.io/nginx:1.28.0-alpine3.21-dev AS runner
 COPY nginx.conf /etc/nginx/nginx.conf
 
 # Copy the static build output from the build stage to Nginx's default HTML serving directory
-COPY --from=builder /app/dist/howpleased /usr/share/nginx/html
+COPY --from=builder /app/dist/howpleased/browser /usr/share/nginx/html
 
 # Use a non-root user for security best practices
 USER nginx

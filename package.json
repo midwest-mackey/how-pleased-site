@@ -7,7 +7,6 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:howpleased": "node dist/howpleased/server/server.mjs",
     "ci:build": "ng build --configuration production"
 
   },

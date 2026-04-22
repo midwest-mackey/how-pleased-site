@@ -42,7 +42,11 @@
                 "input": "public",
                 "output": "/"
               }
-            ]
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
+
           },
           "configurations": {
             "production": {
